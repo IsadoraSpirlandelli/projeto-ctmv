@@ -456,6 +456,14 @@ html {
         width: 100%;
         text-align: center;
         padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-txt a {
+        display: inline-block;
+        width: fit-content; /* O botão não estica, ele mantém o tamanho do texto */
+        margin: 0 auto;     /* Reforça a centralização */
     }
     .box-img {
         width: 100%;
